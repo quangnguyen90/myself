@@ -1,0 +1,35 @@
+<?php /* Smarty version Smarty-3.1.18, created on 2015-03-08 00:57:14
+         compiled from "application\views\layout\footer.php" */ ?>
+<?php /*%%SmartyHeaderCode:1267954fb3bfac6f1e3-88980411%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '7553a0ffaa4ee7a3f00d2327a5bfa08f02dff74c' => 
+    array (
+      0 => 'application\\views\\layout\\footer.php',
+      1 => 1425368994,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '1267954fb3bfac6f1e3-88980411',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_54fb3bfac736b6_53495695',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_54fb3bfac736b6_53495695')) {function content_54fb3bfac736b6_53495695($_smarty_tpl) {?><div class="container inner">
+  <p>© 2014 Developed by <a href="index.php/auth/login">Quang Nguyen Phu</a>. All rights reserved - version 0.1. Theme by elemis.</p>
+  <ul class="social gray">
+    <!-- <li><a href="#"><i class="icon-s-twitter"></i></a></li> -->
+    <li><a href="https://www.facebook.com/quang.nguyenphu.14"><i class="icon-s-facebook"></i></a></li>
+    <li><a href="https://github.com/quangnguyen90"><i class="icon-s-github"></i></a></li>
+    <!-- <li><a href="#"><i class="icon-s-instagram"></i></a></li> -->
+    <li><a href="https://plus.google.com/u/0/108506522243213728592/posts"><i class="icon-gplus"></i></a></li>
+    <li><a href="http://lnkd.in/bQxqy-Q"><i class="icon-s-linkedin"></i></a></li>
+    <li><a href="https://www.youtube.com/channel/UCc508fgvYhNOwbMeOAVm69Q/videos"><i class="icon-s-youtube"></i></li>
+  </ul>
+  <!-- /.social --> 
+</div>
+    <!-- /.container --><?php }} ?>

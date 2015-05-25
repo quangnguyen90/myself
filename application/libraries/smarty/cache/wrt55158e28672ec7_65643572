@@ -1,0 +1,337 @@
+<?php /*%%SmartyHeaderCode:2316555158e27876ce1-21832697%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '514ef1d13e157d4ed2366cc40adbe32ac1f68e6a' => 
+    array (
+      0 => 'application\\views\\layout\\default.php',
+      1 => 1426776343,
+      2 => 'file',
+    ),
+    'c26513e9ba60b8caafe0fa1726923939fbbdefb3' => 
+    array (
+      0 => 'application\\views\\layout\\header.php',
+      1 => 1427171601,
+      2 => 'file',
+    ),
+    '33084ac7f10fbaea5f27e5f463b030bd372f20d7' => 
+    array (
+      0 => 'application\\views\\admin_project\\admin_view_project_index.php',
+      1 => 1423812015,
+      2 => 'file',
+    ),
+    '29bb9539979b6ca163b5680994e13a3aecc2f007' => 
+    array (
+      0 => 'application\\views\\admin_project\\admin_view_list_project_form.php',
+      1 => 1427476002,
+      2 => 'file',
+    ),
+    '7553a0ffaa4ee7a3f00d2327a5bfa08f02dff74c' => 
+    array (
+      0 => 'application\\views\\layout\\footer.php',
+      1 => 1426746306,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '2316555158e27876ce1-21832697',
+  'variables' => 
+  array (
+    'base_url' => 0,
+    'ext_css' => 0,
+    'stylesheet' => 0,
+    'ext_js' => 0,
+    'script' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_55158e2866c2d8_92256755',
+  'cache_lifetime' => 120,
+),true); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_55158e2866c2d8_92256755')) {function content_55158e2866c2d8_92256755($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<base href="http://localhost/quangnguyen/">
+    <meta charset="utf-8" />
+    <title>Quang Nguyen Phu's site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/style/images/favicon.png" />
+    <link href="assets/style/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/style/css/settings.css" rel="stylesheet" />
+    <link href="assets/style/js/google-code-prettify/prettify.css" rel="stylesheet" />
+    <link href="assets/style.css" rel="stylesheet" />
+    <link href="assets/style/css/color/green.css" rel="stylesheet" />
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
+    <link href="assets/style/type/fontello.css" rel="stylesheet" />
+
+    <link href="assets/style/css/timeline.css" rel="stylesheet" />
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="assets/style/css/ie8.css" media="all" />
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="assets/style/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        
+    
+</head>
+
+<body data-spy="scroll" data-target=".nav-collapse" data-offset="100">
+    <div class="body-wrapper">
+        <!--header start-->
+        <div id="header" class="navbar navbar-fixed-top">
+        	<div class="navbar-inner">
+  <div class="container"> <a class="btn responsive-menu pull-right" data-toggle="collapse" data-target=".nav-collapse"><i class='icon-menu-1'></i></a> <a class="brand" href="#"><img src="assets/style/images/logo.png" alt="" /></a>
+    <div class="nav-collapse pull-right collapse">
+      <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li class="dropdown"> <a href="#about" class="dropdown-toggle js-activated">About</a>
+        </li>
+        <li class="dropdown"> <a href="#accomplishment" class="dropdown-toggle js-activated">Resume</a>
+          <ul class="dropdown-menu">
+           <li><a href="#accomplishment">Accomplishment</a></li>
+            <li><a href="#skill-set">Skills set</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      
+               <li class="dropdown"> <a href="#" class="dropdown-toggle js-activated">Admin - quang_thecenmaster</a>
+          <ul class="dropdown-menu">
+            <li><a href="index.php/admin_project/view_project_list">Project</a></li>
+            <li><a href="index.php/admin_blog/view_blog_list">Blog</a></li>
+            <li><a href="index.php/admin_category/view_category_list">Category</a></li>
+            <li><a href="index.php/auth/logout">Logout</a></li>
+          </ul>
+        </li>
+              </ul>
+    </div>
+  </div>
+</div>
+        </div>
+        <!--header end-->
+
+        <!--main content start-->
+        <div class="myself-content">
+        	<div class="light-wrapper offset">
+	<div class="section-head">
+	  <div class="container">
+	    <h1>Project Management</h1>
+	  </div>
+	  <!-- /.container --> 
+	</div>
+	<!-- /.section-head -->
+	<div class="container inner">
+	  	<fieldset>
+		  	<div class="row">
+		    	<div class="span4">
+		      		<ul class="bullet">
+						<a  href="index.php/admin_project/show_form_to_create_project" class="btn btn-blue" id="create_project_button"> <i class="icon-plus-sign"></i>New Project</a>
+		      		</ul>
+		    	</div>
+		    	<!-- /.span4 -->
+		    	<div class="span8">
+		      		<ul class="bullet">
+						<input type="text" name="keyword" id="search-project-text" class="form-control"  value="" placeholder="Search project">
+		      		</ul>
+		    	</div>
+		    	<!-- /.span4 --> 
+		  	</div>
+		  	<legend>Project List</legend>
+		  	<div class="row">
+		  		<div class="span12" id ="project_list_show">
+		  			<!-- <label id="lt-danger" style="color:red;"></label>
+ -->
+ <div id="total_project_rows_selected">
+						<strong>Found 14 result(s)</strong>
+		
+			</div>
+
+	<div id="projectList-container">
+		<table class="table table-bordered table-condensed table-striped" id="project-list">
+			<thead style="font-weight: bold;">
+				<td>No</td>
+				<td>Project ID</td>
+				<td>Project title</td>
+				<td>Prooject brief</td>
+				<td>Category ID</td>
+				<td>Category title</td>
+				<td>Date Created</td>
+				<td>Figure</td>
+				<td>Status</td>
+				<td>Action</td>
+			</thead>
+							<tr class="recordPROJ" record-id="14">
+					<td>1</td>
+					<td>14</td>
+					<td>YALA</td>
+					<td>Hello world</td>
+					<td>6</td>
+					<td>University</td>
+					<td>2015-03-28 00:02:17</td>
+					<td><img id="p_img_14" style="width:150px; height:75px" src=" assets/style/images/art/nofound.jpg " alt="" /></td>
+					<td>								On
+												</td>
+					<td>
+						<a href="index.php/admin_project/view_detail_project/14" 
+							id="14" 
+							class="edit_proj_button btn btn-orange"
+							title="Edit">
+							<i class="icon-pencil"></i>
+						</a>
+						<a href="javascript:void(0)" 
+							id="14" 
+							name="YALA" 
+							class="remove_proj_button btn btn-red"
+							title="Remove">
+							<i class="icon-cancel-circled"></i>
+						</a>
+													<a href="javascript:void(0)" 
+								id="14" 
+								class="ed_proj_button btn btn-navy" 
+								title="Disable"
+								action="Ddsable"> 
+								<i class="icon-lock-1"></i> 
+							</a>
+												</td>
+				</tr>
+							<tr class="recordPROJ" record-id="13">
+					<td>2</td>
+					<td>13</td>
+					<td>Yolo</td>
+					<td>Yolo</td>
+					<td>6</td>
+					<td>University</td>
+					<td>2015-03-28 00:02:16</td>
+					<td><img id="p_img_13" style="width:150px; height:75px" src=" assets/style/images/art/nofound.jpg " alt="" /></td>
+					<td>								On
+												</td>
+					<td>
+						<a href="index.php/admin_project/view_detail_project/13" 
+							id="13" 
+							class="edit_proj_button btn btn-orange"
+							title="Edit">
+							<i class="icon-pencil"></i>
+						</a>
+						<a href="javascript:void(0)" 
+							id="13" 
+							name="Yolo" 
+							class="remove_proj_button btn btn-red"
+							title="Remove">
+							<i class="icon-cancel-circled"></i>
+						</a>
+													<a href="javascript:void(0)" 
+								id="13" 
+								class="ed_proj_button btn btn-navy" 
+								title="Disable"
+								action="Ddsable"> 
+								<i class="icon-lock-1"></i> 
+							</a>
+												</td>
+				</tr>
+					</table>
+	</div>
+
+	<center>
+		<div class="pagination"><ul><li class="active"><a href="">1</a></li><li class="page"><li><a href="http://localhost/quangnguyen/index.php/admin_project/view_project_list/2">2</a></li></li><li class="page"><li><a href="http://localhost/quangnguyen/index.php/admin_project/view_project_list/3">3</a></li></li><li class="next page"><a href="http://localhost/quangnguyen/index.php/admin_project/view_project_list/2">Next &rarr;</a></li><li class="next page"><a href="http://localhost/quangnguyen/index.php/admin_project/view_project_list/7">Last &raquo;</a></li></ul></div><!--pagination-->
+	</center>
+
+		  		</div>
+		  	</div>
+	  	</fieldset>
+	</div>
+</div>
+<!-- /.container --> 
+
+        </div>
+        <!--main content end-->
+
+        <!-- footer start -->
+        <footer class="light-wrapper text-center">
+            <div class="container inner">
+  <p><a href="index.php/auth/login" style="color:black">©</a> 2015 Developed by Quang Nguyen Phu. All rights reserved - version 0.1. Theme by elemis.</p>
+  <ul class="social gray">
+    <!-- <li><a href="#"><i class="icon-s-twitter"></i></a></li> -->
+    <li><a href="https://www.facebook.com/quang.nguyenphu.14"><i class="icon-s-facebook"></i></a></li>
+    <li><a href="https://github.com/quangnguyen90"><i class="icon-s-github"></i></a></li>
+    <!-- <li><a href="#"><i class="icon-s-instagram"></i></a></li> -->
+    <li><a href="https://plus.google.com/u/0/108506522243213728592/posts"><i class="icon-gplus"></i></a></li>
+    <li><a href="http://lnkd.in/bQxqy-Q"><i class="icon-s-linkedin"></i></a></li>
+    <li><a href="https://www.youtube.com/channel/UCc508fgvYhNOwbMeOAVm69Q/videos"><i class="icon-s-youtube"></i></li>
+  </ul>
+  <!-- /.social --> 
+</div>
+    <!-- /.container -->  
+        </footer>
+        <!-- /footer -->
+
+    </div>
+    
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!-- Placed js at the end of the document so the pages load faster -->
+<!--Core js-->
+<!--/.body-wrapper--> 
+<script src="assets/style/js/jquery.js"></script> 
+<script src="assets/style/js/bootstrap.min.js"></script> 
+<script src="assets/style/js/twitter-bootstrap-hover-dropdown.min.js"></script> 
+<script src="assets/style/js/jquery.themepunch.plugins.min.js"></script> 
+<script src="assets/style/js/jquery.themepunch.revolution.min.js"></script> 
+<script src="assets/style/js/jquery.themepunch.showbizpro.min.js"></script> 
+<script src="assets/style/js/jquery.fitvids.js"></script> 
+<script src="assets/style/js/jquery.slickforms.js"></script> 
+<script src="assets/style/js/jquery.isotope.min.js"></script> 
+<script src="assets/style/js/google-code-prettify/prettify.js"></script> 
+<script src="assets/style/js/jquery.easytabs.min.js"></script> 
+<script src="assets/style/js/jquery.jribbble-0.11.0.ugly.js"></script> 
+<script src="assets/style/js/view.min.js?auto"></script> 
+<script src="assets/style/js/scripts.js"></script>
+
+<!-- DEMO ONLY -->
+<link rel="alternate stylesheet" type="text/css" href="assets/switcher/blue.css" title="blue-color" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="assets/switcher/gray.css" title="gray-color" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="assets/switcher/green.css" title="green-color" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="assets/switcher/navy.css" title="navy-color" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="assets/switcher/orange.css" title="orange-color" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="assets/switcher/pink.css" title="pink-color" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="assets/switcher/purple.css" title="purple-color" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="assets/switcher/red.css" title="red-color" media="screen" />
+
+<script type="text/javascript" src="assets/switcher/switchstylesheet.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){ 
+        $(".changecolor").switchstylesheet( { seperator:"color"} );
+    });
+</script>
+
+<!--external script-->
+<script src="assets/js/project/project.js"></script>
+<script src="assets/js/project/project_event.js"></script>
+
+
+<!--common script init for all pages-->
+
+<!--script for this page-->
+<script>
+    $(function(){
+       // Init the Dashboard appplication
+       
+   });
+</script>
+
+</body>
+
+</html><?php }} ?>
