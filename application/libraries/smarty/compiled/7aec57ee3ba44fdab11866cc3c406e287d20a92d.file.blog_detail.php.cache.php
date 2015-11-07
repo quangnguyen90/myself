@@ -1,22 +1,23 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2015-03-31 13:52:23
+<?php /* Smarty version Smarty-3.1.18, created on 2015-11-07 15:20:36
          compiled from "application\views\myself\blog_detail.php" */ ?>
-<?php /*%%SmartyHeaderCode:31683551a4427a54150-50869757%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:17071563db45418e9d1-20416420%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '7aec57ee3ba44fdab11866cc3c406e287d20a92d' => 
     array (
       0 => 'application\\views\\myself\\blog_detail.php',
-      1 => 1427623448,
+      1 => 1427899349,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '31683551a4427a54150-50869757',
+  'nocache_hash' => '17071563db45418e9d1-20416420',
   'function' => 
   array (
   ),
   'variables' => 
   array (
+    'code_blog_detail' => 0,
     'blog_detail' => 0,
     'baseURL' => 0,
     'blog_list' => 0,
@@ -25,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_551a4427aba032_53238324',
+  'unifunc' => 'content_563db454222df8_55162187',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_551a4427aba032_53238324')) {function content_551a4427aba032_53238324($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_truncate')) include 'C:\\xampp\\htdocs\\quangnguyen\\application\\libraries\\smarty\\libs\\plugins\\modifier.truncate.php';
+<?php if ($_valid && !is_callable('content_563db454222df8_55162187')) {function content_563db454222df8_55162187($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_truncate')) include 'C:\\xampp\\htdocs\\myself\\application\\libraries\\smarty\\libs\\plugins\\modifier.truncate.php';
 ?><div class="light-wrapper offset">
   <div class="section-head">
     <div class="container">
@@ -38,6 +39,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <!-- /.section-head -->
   <div class="container inner">
     <div class="row classic-blog">
+      <?php if ((isset($_smarty_tpl->tpl_vars['code_blog_detail']->value)&&$_smarty_tpl->tpl_vars['code_blog_detail']->value==1)) {?>
       <div class="span8 content wide">
         <div class="post">
           <h1 class="post-title"><?php echo $_smarty_tpl->tpl_vars['blog_detail']->value['blog_title'];?>
@@ -78,6 +80,15 @@ index.php/home/view_blog_brief" data-numposts="5" data-colorscheme="light"></div
         <!-- /.comment-form-wrapper --> 
         
       </div>
+      <?php } else { ?>
+        <center>
+          <div class='jumbotron'>
+            <br>
+              <h3>No Blog Found</h3>
+            <br>
+          </div>
+        </center>
+      <?php }?>
       <!--/.span8 -->
       
       <aside class="span4 sidebar lp30">

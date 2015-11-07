@@ -15,14 +15,15 @@
         <li><strong>Programming language:</strong><br>
           <!-- ========================================================= PHP -->
            <div class="panel panel-default">
-            <a data-toggle="collapse" data-target="#collapse_PHP"><i class="icon-sort-down"></i>&nbsp;<b>PHP</b></a>
+            <a href="javascript:void(0)" data-toggle="collapse" data-target="#collapse_PHP"><i class="icon-sort-down"></i>&nbsp;<b>PHP</b></a>
             <div id="collapse_PHP" class="collapse in collapse-group">
               <div class="progress progress-success progress-striped active">
                 <div class="bar" style="width: 75%">Advance</div>
               </div>
               <div class = "description">
-                <p><b>-</b> Yii & CI framework (Smarty, CkEditor, CkFinder, Tank auth)</p>
+                <p><b>-</b> Yii & CI framework (Smarty, CkEditor, CkFinder, Tank auth), PHP MVC</p>
                 <p><b>-</b> RESTFUL & SOAP API (JSON)</p>
+                <p><b>-</b> OOP javascript</p>
               </div>
             </div>
           </div>
@@ -34,10 +35,11 @@
             </a>
             <div id="collapse_JAVA" class="panel-collapse collapse">
               <div class="progress progress-info progress-striped active">
-                <div class="bar" style="width: 65%">Advance</div>
+                <div class="bar" style="width: 75%">Advance</div>
               </div>
               <div class = "description">
-                <p><b>-</b> Struts 2 MVC</p>
+                <p><b>-</b> Struts 2 MVC, Mybatis, Tiles (CKEditor)</p>
+                <p><b>-</b> OOP javascript</p>
                 <p><b>-</b> Android</p>
                 <p><b>-</b> Java swings </p>
               </div>
@@ -77,7 +79,7 @@
         <li><strong>Database:</strong> <br> 
           <!-- ========================================================= MySQL -->
           <div class="panel panel-default">
-            <a data-toggle="collapse" data-target="#collapse_MySQL"><i class="icon-sort-down"></i>&nbsp;<b>MySQL</b></a>
+            <a href="javascript:void(0)" data-toggle="collapse" data-target="#collapse_MySQL"><i class="icon-sort-down"></i>&nbsp;<b>MySQL</b></a>
             <div id="collapse_MySQL" class="collapse in collapse-group">
               <div class="progress progress-success progress-striped active">
                 <div class="bar" style="width: 90%">Skilled</div>

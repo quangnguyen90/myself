@@ -1,25 +1,25 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2015-05-25 21:42:59
+<?php /* Smarty version Smarty-3.1.18, created on 2015-11-07 15:20:23
          compiled from "application\views\myself\accomplishment.php" */ ?>
-<?php /*%%SmartyHeaderCode:25013556334f3027e84-46608916%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:27998563db447ed4353-58520111%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '19d976cce1a39ce0f84d22cbf66079fa4250ed66' => 
     array (
       0 => 'application\\views\\myself\\accomplishment.php',
-      1 => 1427978598,
+      1 => 1446867831,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '25013556334f3027e84-46608916',
+  'nocache_hash' => '27998563db447ed4353-58520111',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_556334f3067749_68317810',
+  'unifunc' => 'content_563db447ede520_10894457',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_556334f3067749_68317810')) {function content_556334f3067749_68317810($_smarty_tpl) {?><!-- =============================================================================================================================================================== -->
+<?php if ($_valid && !is_callable('content_563db447ede520_10894457')) {function content_563db447ede520_10894457($_smarty_tpl) {?><!-- =============================================================================================================================================================== -->
  <!-- #accomplishment -->
 <div class="section-head">
   <div class="container">
@@ -78,7 +78,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
               <h2>PHP Web developer at Softfoundry VN</h2>
               <blockquote>
                 <ul class="bullet">
-                  <li>Develop PHP web base on Yii & CI Framework</li>
+                  <li>Develop PHP web base on Yii, CI Framework & also PHP MVC, Javascript</li>
+                  <li>Self learning & coding on free time [java, mean stack (mongodb, express, angularjs, nodejs), laravel, ionic, etc]</li>
                 </ul>
               </blockquote>
               <img src="assets/style/images/art/softfoundry.png" class="img-responsive img-rounded full-width">
@@ -100,6 +101,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
               <blockquote>
                 <ul class="bullet">
                   <li>Team Leader during University</li>
+                  <li>Programming: Java (Struts 2 MVC, Android), C#</li>
                   <li>GPA: 7.75</li>
                   <li>Learn IT base on Carnegie Mellon University program - USA</li>
                   <li>Get 2 Boeing & 1 USAID Sholarships on 1st & 2nd year</li>

@@ -1,25 +1,25 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2015-05-25 21:42:58
+<?php /* Smarty version Smarty-3.1.18, created on 2015-11-07 15:20:23
          compiled from "application\views\myself\index.php" */ ?>
-<?php /*%%SmartyHeaderCode:11838556334f2d42984-06891586%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:19939563db447d20517-72074922%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ce8cad3bf43f6ae595c1672f2a8801e34dd4edd5' => 
     array (
       0 => 'application\\views\\myself\\index.php',
-      1 => 1427980473,
+      1 => 1446879584,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '11838556334f2d42984-06891586',
+  'nocache_hash' => '19939563db447d20517-72074922',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_556334f2d85348_49616762',
+  'unifunc' => 'content_563db447d4a024_32565266',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_556334f2d85348_49616762')) {function content_556334f2d85348_49616762($_smarty_tpl) {?><!-- slide page start -->
+<?php if ($_valid && !is_callable('content_563db447d4a024_32565266')) {function content_563db447d4a024_32565266($_smarty_tpl) {?><!-- slide page start -->
 <section id="home" class="offset">
   <?php echo $_smarty_tpl->getSubTemplate ("layout/slide_page.php", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, null, array(), 0);?>
 
@@ -66,6 +66,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <div id="tst2" class="tab-block"> Learn by doing <span class="author">Quang Nguyen Phu</span> </div>
         <div id="tst3" class="tab-block"> Just try me <span class="author">Phu Quang Nguyen</span> </div>
         <div id="tst4" class="tab-block"> Be a leader <span class="author"> Quang Phu Nguyen</span> </div>
+        <div id="tst5" class="tab-block"> Think simply, do differently <span class="author">Nguyen Phu Quang</span> </div>
       </div>
       <!-- /.panel-container -->
       <ul class="etabs">
@@ -73,6 +74,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <li class="tab"><a href="#tst2">2</a></li>
         <li class="tab"><a href="#tst3">3</a></li>
         <li class="tab"><a href="#tst4">4</a></li>
+        <li class="tab"><a href="#tst5">5</a></li>
       </ul>
       <!-- /.etabs -->
     </div>
@@ -136,7 +138,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <center class="span12 sidebar lp10">
           <div class="sidebox widget">
             <h4>Contact Details</h4>
-            <p>Feel freee to simply contact me and I will get in touch as soon as possible. </p>
+            <p>Feel free to simply contact me and I will get in touch as soon as possible. </p>
             <ul class="contact-info">
               <!-- <li><i class="icon-location"></i> Moon St. 14/05 Light, Jupiter</li> -->
               <li><i class="icon-phone"></i>0986240402</li>

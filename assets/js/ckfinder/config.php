@@ -61,8 +61,8 @@ Examples:
 ATTENTION: The trailing slash is required.
 */
 //$baseUrl = base_url().'/userfiles/'; //before
-$baseUrl = '/quangnguyen/userfiles/other/';// after
-/*
+$baseUrl = '/myself/userfiles/other/';// after
+/*/
 $baseDir : the path to the local directory (in the server) which points to the
 above $baseUrl URL. This is the path used by CKFinder to handle the files in
 the server. Full write permissions must be granted to this directory.

@@ -1,25 +1,25 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2015-05-25 21:42:58
+<?php /* Smarty version Smarty-3.1.18, created on 2015-11-07 15:20:23
          compiled from "application\views\myself\about.php" */ ?>
-<?php /*%%SmartyHeaderCode:23020556334f2eec432-70138552%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:5785563db447e61df1-17606675%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e2889ce27fb929429ee008fe9108fd8484f5ebf7' => 
     array (
       0 => 'application\\views\\myself\\about.php',
-      1 => 1427298947,
+      1 => 1446868971,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '23020556334f2eec432-70138552',
+  'nocache_hash' => '5785563db447e61df1-17606675',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_556334f2f258a5_86442212',
+  'unifunc' => 'content_563db447e6c2d8_38002916',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_556334f2f258a5_86442212')) {function content_556334f2f258a5_86442212($_smarty_tpl) {?><div class="section-head">
+<?php if ($_valid && !is_callable('content_563db447e6c2d8_38002916')) {function content_563db447e6c2d8_38002916($_smarty_tpl) {?><div class="section-head">
   <div class="container">
     <h1>About me</h1>
   </div>
@@ -45,21 +45,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <div id="collapseOne" class="accordion-body collapse">
           <div class="accordion-inner"> 
             <blockquote>
-              <p> <span class="dropcap">I</span> always want to make simple & different software products by myself to help people in their life.
-                  I learn every days to get more experiences as much as possible & think a lot about my career path: Who will I become to in the future? What will I have to do ? What will I get ?
+              <p> <span class="dropcap">I</span> always want to make simple & different software products by what I can realise in the life to help people with better life.
+                  I learn everydays to get more experiences as much as possible & think a lot about my career path: Who will I become to in the future? What will I have to do ? What will I get ?
                   </p>
 
-              <p> After graduated from my Van Lang university, major in Software engineering (based on Canergie Mellon University program), my first objective is become project 
+              <p> <span class="dropcap">A</span>fter graduated from my Van Lang university, major in Software engineering (based on Canergie Mellon University program), my first objective is become project 
                   manager. So that, I have been started to research & read a lot of newspaper about economical, successfull people, unique ideas, human resource management, etc to 
                   promote my passion on IT. I also imporve my technical skill, soft skill because it's my current working & enjoy learn new things when I have free time.
               </p>
 
               <p> <span class="dropcap">M</span> oreover, I also have a passion on music. I can play cajon drum, harmonica, guitar, flute, ukulele & I am learning keyboard, also. It helps me relax when I feel stress & tired. 
                   I believe that playing instruments & working IT will make me become more confident. Music make us sometime have some unique ideas, logic better, open mind & think different. 
+              </p>
+              <p> <span class="dropcap">D</span>eep in my heart, I want to own a IT company for myself if I were 30 or 35 years old. So, I learn & work everydays to make my dream come true.  
                   I am not lucky as many people when I was born with a weakness health, I know that there are many people who have worse status than me, but some of them still
                   beome successfull people and make a lot of others know them. Therefore, life is only once & no one have to live for the other's life, I believe that with all the passion & ambitous in IT, I will become 
                   a successfull people.
-                </p>
+              </p>
             </blockquote>
           </div>
         </div>
@@ -75,7 +77,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <div class="row">
     <div class="span4">
       <h4>What I Do?</h4>
-      <p>Working with PHP projects with new challenges that requires hard working & high responsibly since graduated from university, I also research & learn new programming 
+      <p>Working with projects with new challenges that requires hard working & high responsibly since graduated from university (PHP, Java, Javascript). Very enjoy to research & learn new programming 
        language/technology, design architecture, make ideas, testing, analyses requirement, write software documents, 
        ability in planning working, work independently or work on team, self-schedule management, 
        reading English materials & English communication. 

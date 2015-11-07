@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2015-03-28 19:44:44
+<?php /* Smarty version Smarty-3.1.18, created on 2015-11-07 15:08:51
          compiled from "application\views\admin_blog\admin_view_describe_blog_form.php" */ ?>
-<?php /*%%SmartyHeaderCode:97685516a23cbfc7e1-88810665%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:21487563db193f39188-98295615%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '066863061e677b68383d758e07863de4200e4089' => 
     array (
       0 => 'application\\views\\admin_blog\\admin_view_describe_blog_form.php',
-      1 => 1427133640,
+      1 => 1446223159,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '97685516a23cbfc7e1-88810665',
+  'nocache_hash' => '21487563db193f39188-98295615',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5516a23cc7b0a1_73806188',
+  'unifunc' => 'content_563db19407f033_74139520',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5516a23cc7b0a1_73806188')) {function content_5516a23cc7b0a1_73806188($_smarty_tpl) {?><div class="light-wrapper offset">
+<?php if ($_valid && !is_callable('content_563db19407f033_74139520')) {function content_563db19407f033_74139520($_smarty_tpl) {?><div class="light-wrapper offset">
 <form enctype="multipart/form-data" id="upload-blog-form">
   <div class="section-head">
     <div class="container">

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2015-05-25 21:42:59
+<?php /* Smarty version Smarty-3.1.18, created on 2015-11-07 15:20:24
          compiled from "application\views\myself\blog.php" */ ?>
-<?php /*%%SmartyHeaderCode:10456556334f32e00f3-57288987%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:853563db448386e07-91620713%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10456556334f32e00f3-57288987',
+  'nocache_hash' => '853563db448386e07-91620713',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_556334f343ef13_34397177',
+  'unifunc' => 'content_563db448408f71_10563388',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_556334f343ef13_34397177')) {function content_556334f343ef13_34397177($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_truncate')) include 'C:\\xampp\\htdocs\\myself\\application\\libraries\\smarty\\libs\\plugins\\modifier.truncate.php';
+<?php if ($_valid && !is_callable('content_563db448408f71_10563388')) {function content_563db448408f71_10563388($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_truncate')) include 'C:\\xampp\\htdocs\\myself\\application\\libraries\\smarty\\libs\\plugins\\modifier.truncate.php';
 ?><!-- =============================================================================================================================================================== -->
 <!--/#blog -->
 <div class="section-head">

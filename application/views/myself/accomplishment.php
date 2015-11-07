@@ -57,7 +57,8 @@
               <h2>PHP Web developer at Softfoundry VN</h2>
               <blockquote>
                 <ul class="bullet">
-                  <li>Develop PHP web base on Yii & CI Framework</li>
+                  <li>Develop PHP web base on Yii, CI Framework & also PHP MVC, Javascript</li>
+                  <li>Self learning & coding on free time [java, mean stack (mongodb, express, angularjs, nodejs), laravel, ionic, etc]</li>
                 </ul>
               </blockquote>
               <img src="assets/style/images/art/softfoundry.png" class="img-responsive img-rounded full-width">
@@ -79,6 +80,7 @@
               <blockquote>
                 <ul class="bullet">
                   <li>Team Leader during University</li>
+                  <li>Programming: Java (Struts 2 MVC, Android), C#</li>
                   <li>GPA: 7.75</li>
                   <li>Learn IT base on Carnegie Mellon University program - USA</li>
                   <li>Get 2 Boeing & 1 USAID Sholarships on 1st & 2nd year</li>

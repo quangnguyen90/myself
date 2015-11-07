@@ -40,6 +40,7 @@
         <div id="tst2" class="tab-block"> Learn by doing <span class="author">Quang Nguyen Phu</span> </div>
         <div id="tst3" class="tab-block"> Just try me <span class="author">Phu Quang Nguyen</span> </div>
         <div id="tst4" class="tab-block"> Be a leader <span class="author"> Quang Phu Nguyen</span> </div>
+        <div id="tst5" class="tab-block"> Think simply, do differently <span class="author">Nguyen Phu Quang</span> </div>
       </div>
       <!-- /.panel-container -->
       <ul class="etabs">
@@ -47,6 +48,7 @@
         <li class="tab"><a href="#tst2">2</a></li>
         <li class="tab"><a href="#tst3">3</a></li>
         <li class="tab"><a href="#tst4">4</a></li>
+        <li class="tab"><a href="#tst5">5</a></li>
       </ul>
       <!-- /.etabs -->
     </div>
@@ -109,7 +111,7 @@
         <center class="span12 sidebar lp10">
           <div class="sidebox widget">
             <h4>Contact Details</h4>
-            <p>Feel freee to simply contact me and I will get in touch as soon as possible. </p>
+            <p>Feel free to simply contact me and I will get in touch as soon as possible. </p>
             <ul class="contact-info">
               <!-- <li><i class="icon-location"></i> Moon St. 14/05 Light, Jupiter</li> -->
               <li><i class="icon-phone"></i>0986240402</li>

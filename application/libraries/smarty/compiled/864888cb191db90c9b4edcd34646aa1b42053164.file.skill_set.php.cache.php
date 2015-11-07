@@ -1,25 +1,25 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2015-05-25 21:42:59
+<?php /* Smarty version Smarty-3.1.18, created on 2015-11-07 15:20:24
          compiled from "application\views\myself\skill_set.php" */ ?>
-<?php /*%%SmartyHeaderCode:28746556334f30aad57-12543360%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:25919563db448183031-38340886%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '864888cb191db90c9b4edcd34646aa1b42053164' => 
     array (
       0 => 'application\\views\\myself\\skill_set.php',
-      1 => 1427980682,
+      1 => 1446867291,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '28746556334f30aad57-12543360',
+  'nocache_hash' => '25919563db448183031-38340886',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_556334f30ecde6_93692942',
+  'unifunc' => 'content_563db448190d78_16920911',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_556334f30ecde6_93692942')) {function content_556334f30ecde6_93692942($_smarty_tpl) {?><!-- =============================================================================================================================================================== -->
+<?php if ($_valid && !is_callable('content_563db448190d78_16920911')) {function content_563db448190d78_16920911($_smarty_tpl) {?><!-- =============================================================================================================================================================== -->
  <!-- #skills set -->
 <div class="section-head">
   <div class="container">
@@ -36,14 +36,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <li><strong>Programming language:</strong><br>
           <!-- ========================================================= PHP -->
            <div class="panel panel-default">
-            <a data-toggle="collapse" data-target="#collapse_PHP"><i class="icon-sort-down"></i>&nbsp;<b>PHP</b></a>
+            <a href="javascript:void(0)" data-toggle="collapse" data-target="#collapse_PHP"><i class="icon-sort-down"></i>&nbsp;<b>PHP</b></a>
             <div id="collapse_PHP" class="collapse in collapse-group">
               <div class="progress progress-success progress-striped active">
                 <div class="bar" style="width: 75%">Advance</div>
               </div>
               <div class = "description">
-                <p><b>-</b> Yii & CI framework (Smarty, CkEditor, CkFinder, Tank auth)</p>
+                <p><b>-</b> Yii & CI framework (Smarty, CkEditor, CkFinder, Tank auth), PHP MVC</p>
                 <p><b>-</b> RESTFUL & SOAP API (JSON)</p>
+                <p><b>-</b> OOP javascript</p>
               </div>
             </div>
           </div>
@@ -55,10 +56,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             </a>
             <div id="collapse_JAVA" class="panel-collapse collapse">
               <div class="progress progress-info progress-striped active">
-                <div class="bar" style="width: 65%">Advance</div>
+                <div class="bar" style="width: 75%">Advance</div>
               </div>
               <div class = "description">
-                <p><b>-</b> Struts 2 MVC</p>
+                <p><b>-</b> Struts 2 MVC, Mybatis, Tiles (CKEditor)</p>
+                <p><b>-</b> OOP javascript</p>
                 <p><b>-</b> Android</p>
                 <p><b>-</b> Java swings </p>
               </div>
@@ -98,7 +100,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <li><strong>Database:</strong> <br> 
           <!-- ========================================================= MySQL -->
           <div class="panel panel-default">
-            <a data-toggle="collapse" data-target="#collapse_MySQL"><i class="icon-sort-down"></i>&nbsp;<b>MySQL</b></a>
+            <a href="javascript:void(0)" data-toggle="collapse" data-target="#collapse_MySQL"><i class="icon-sort-down"></i>&nbsp;<b>MySQL</b></a>
             <div id="collapse_MySQL" class="collapse in collapse-group">
               <div class="progress progress-success progress-striped active">
                 <div class="bar" style="width: 90%">Skilled</div>

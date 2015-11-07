@@ -1,25 +1,25 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2015-05-25 21:42:58
+<?php /* Smarty version Smarty-3.1.18, created on 2015-11-07 15:20:23
          compiled from "application\views\layout\slide_page.php" */ ?>
-<?php /*%%SmartyHeaderCode:17567556334f2e42e67-98068534%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:992563db447df4e82-10966044%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '4ead027e51ecc22f7f0984155ae887d4d22971e0' => 
     array (
       0 => 'application\\views\\layout\\slide_page.php',
-      1 => 1424092796,
+      1 => 1446884261,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '17567556334f2e42e67-98068534',
+  'nocache_hash' => '992563db447df4e82-10966044',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_556334f2e77282_23531572',
+  'unifunc' => 'content_563db447dfe267_59769211',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_556334f2e77282_23531572')) {function content_556334f2e77282_23531572($_smarty_tpl) {?><div class="fullwidthbanner-container revolution">
+<?php if ($_valid && !is_callable('content_563db447dfe267_59769211')) {function content_563db447dfe267_59769211($_smarty_tpl) {?><div class="fullwidthbanner-container revolution">
   <div class="fullwidthbanner">
     <ul>
       <li data-transition="fade"> <img src="assets/style/images/art/slider1.png" alt="" />

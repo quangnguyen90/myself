@@ -1,0 +1,386 @@
+<?php /*%%SmartyHeaderCode:27805563d8b47465f58-95524578%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '514ef1d13e157d4ed2366cc40adbe32ac1f68e6a' => 
+    array (
+      0 => 'application\\views\\layout\\default.php',
+      1 => 1427980470,
+      2 => 'file',
+    ),
+    'c26513e9ba60b8caafe0fa1726923939fbbdefb3' => 
+    array (
+      0 => 'application\\views\\layout\\header.php',
+      1 => 1427171601,
+      2 => 'file',
+    ),
+    '10c788aea52699fb5044ddc64f484a1e47766efc' => 
+    array (
+      0 => 'application\\views\\admin_project\\admin_view_describe_project_form.php',
+      1 => 1427166033,
+      2 => 'file',
+    ),
+    '7553a0ffaa4ee7a3f00d2327a5bfa08f02dff74c' => 
+    array (
+      0 => 'application\\views\\layout\\footer.php',
+      1 => 1426746306,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '27805563d8b47465f58-95524578',
+  'variables' => 
+  array (
+    'base_url' => 0,
+    'ext_css' => 0,
+    'stylesheet' => 0,
+    'ext_js' => 0,
+    'script' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_563d8b47a23bd2_37406365',
+  'cache_lifetime' => 120,
+),true); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_563d8b47a23bd2_37406365')) {function content_563d8b47a23bd2_37406365($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<base href="http://localhost/myself/">
+    <meta charset="utf-8" />
+    <title>Quang Nguyen Phu's site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/style/images/favicon.png" />
+    <link href="assets/style/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/style/css/settings.css" rel="stylesheet" />
+    <link href="assets/style/js/google-code-prettify/prettify.css" rel="stylesheet" />
+    <link href="assets/style.css" rel="stylesheet" />
+    <link href="assets/style/css/color/green.css" rel="stylesheet" />
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
+    <link href="assets/style/type/fontello.css" rel="stylesheet" />
+
+    <link href="assets/style/css/timeline.css" rel="stylesheet" />
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="assets/style/css/ie8.css" media="all" />
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="assets/style/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <!-- =============================================================================================================================================================== -->
+    <script type="text/javascript">
+      var baseUrlQ = "http://localhost/myself/";
+    </script>
+    
+</head>
+
+<body data-spy="scroll" data-target=".nav-collapse" data-offset="100">
+    <div class="body-wrapper">
+        <!--header start-->
+        <div id="header" class="navbar navbar-fixed-top">
+        	<div class="navbar-inner">
+  <div class="container"> <a class="btn responsive-menu pull-right" data-toggle="collapse" data-target=".nav-collapse"><i class='icon-menu-1'></i></a> <a class="brand" href="#"><img src="assets/style/images/logo.png" alt="" /></a>
+    <div class="nav-collapse pull-right collapse">
+      <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li class="dropdown"> <a href="#about" class="dropdown-toggle js-activated">About</a>
+        </li>
+        <li class="dropdown"> <a href="#accomplishment" class="dropdown-toggle js-activated">Resume</a>
+          <ul class="dropdown-menu">
+           <li><a href="#accomplishment">Accomplishment</a></li>
+            <li><a href="#skill-set">Skills set</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      
+               <li class="dropdown"> <a href="#" class="dropdown-toggle js-activated">Admin - quang_thecenmaster</a>
+          <ul class="dropdown-menu">
+            <li><a href="index.php/admin_project/view_project_list">Project</a></li>
+            <li><a href="index.php/admin_blog/view_blog_list">Blog</a></li>
+            <li><a href="index.php/admin_category/view_category_list">Category</a></li>
+            <li><a href="index.php/auth/logout">Logout</a></li>
+          </ul>
+        </li>
+              </ul>
+    </div>
+  </div>
+</div>
+        </div>
+        <!--header end-->
+
+        <!--main content start-->
+        <div class="myself-content">
+        	<div class="light-wrapper offset">
+<form enctype="multipart/form-data" method="post" id="upload-project-form" name="upload_project_form">
+  <div class="section-head">
+    <div class="container">
+      <h1>Project Management</h1>
+    </div>
+    <!-- /.container --> 
+  </div>
+  <!-- /.section-head -->
+  <div class="container inner">
+    <fieldset>
+
+    <!-- Form Name -->
+    <legend>Project Description - <b>Detail Info</b></legend>
+  
+    <!-- Text input-->
+    <div class="control-group">
+      <label id="project_danger" style="color:red;"></label>
+      <input id="ad-project-id" name="ad_project_id" class="text-input defaultText" value=" 3" type="hidden">
+        
+      <label class="control-label" for="ad-project-title">Project Title</label>
+      <div class="controls">
+        <input id="ad-project-title" name="ad_project_title" placeholder="Enter Project Title here" class="text-input defaultText required" value=" My Side Project With Friend" required="" type="text">
+        <p class="help-block">Ex: Mobile office, City wifi...</p>
+      </div>
+    </div>
+    
+    <!-- Textarea -->
+    <div class="control-group">
+      <div class="controls">
+        <span for="ad-project-brief" class="text-muted pull-left">Project brief</span>
+        <span id="count-ad-project-brief-content" class="text-muted pull-right">0/500</span>
+      </div>
+
+      <div class="controls">
+        <textarea id="ad-project-brief" name="ad_project_brief" class="text-area required" maxlength="500" rows="2">
+         This post will provide some information about my side projects with my friend that I joined when I have free time.  One is completed with the initial versions with the most necessary & basic features. One is delay because we are too busy for meeting . Each project also brings me different & interesting experiences. Will show source code for sharing on my github for each project. Just follow this post.        </textarea>
+      </div>
+    </div>
+
+    <!-- Select Basic -->
+    <div class="control-group">
+      <label class="control-label" for="ad-project-categlog">Project Catalog</label>
+      <div class="controls">
+        <!-- USER FOR EDIT -->
+                  <select id="ad-project-catalog" name="ad_project_catalog_id" class="input-xlarge">
+            <option value="2">With Friend</option>
+                          <option value="6">University</option>
+                          <option value="3">Company</option>
+                          <option value="2">With Friend</option>
+                          <option value="1">Myself</option>
+                      </select>
+        <!-- USE FOR CREATE NEW PROJECT -->
+              
+      </div>
+    </div>
+
+    <!-- Textarea -->
+    <div class="control-group">
+      <label class="control-label" for="ad-project-description">Project Description</label>
+      <div class="controls">                     
+        <!-- <textarea id="ad-project-description" name="ad-project-description"  class="text-area required"></textarea> -->
+        <textarea id="ad-project-description" name="ad_project_description"  class="text-area required">
+           <table>
+ <tbody>
+  <tr>
+   <td>
+   <p><strong>DOING SIDE PROJECT &#8220;SIMPLE CMS&#8221;</strong></p>
+
+   <p><strong>Home - 7/2015 &#8211; present</strong></p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   <p>&#183;&#160;<strong>Description</strong>: &#160;&#160;Develop a basic cms project then use it to develop other small/medium websites (ex: blog, product introducing, etc)</p>
+
+   <p>&#183;&#160;<strong>Skills</strong>: XAMPP, PHP (CI framework v3.0), MySQL, MVC, AngularJS, GruntJS, Tank Auth, Javascript, Boostrap, HTML, CSS, Ajax</p>
+
+   <p>&#183;&#160;<strong>Number of team member: </strong>2 member<strong>s</strong></p>
+
+   <p>&#183;&#160;<strong>Role</strong>: web service developer</p>
+
+   <p>&#183;&#160;<strong>Result</strong>: --- Delay ---</p>
+
+   <p>&#183;&#160;<strong>Github</strong><strong>:</strong> <a href="https://github.com/phatpham9/simple-cms">https://github.com/phatpham9/simple-cms</a></p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   <p><strong>DID SIDE PROJECT &#8220;GUEST BOOK&#8221; FOR MY CLASS</strong></p>
+
+   <p><strong>Home - 5/2014 &#8211;&#160; 10/2014</strong></p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   <p><strong>Description</strong>: A small web site that allows students who can share their profile information as well as update new status for friend, store images/album like a guest book for saving memories.</p>
+
+   <p><strong>Skills</strong>: PHP (CI framework), XAMPP 1.8.2, MySQL, Bootstrap (for UI), Ajax, Jquery, Javascript, HTML, CSS, SVN, MVC</p>
+
+   <p><strong>Number of team member: </strong>4 members</p>
+
+   <p><strong>Role</strong>:&#160; web developer (implement, test)</p>
+
+   <p><strong>Result</strong>: --- Version 0.1 Done ---</p>
+
+   <p><strong>Github</strong>: <a href="https://github.com/quangnguyen90/guestbook">https://github.com/quangnguyen90/guestboo</a></p>
+   </td>
+  </tr>
+ </tbody>
+</table>
+        </textarea>
+      </div>
+    </div>
+
+    <!-- File Button --> 
+    <div class="control-group">
+      <label class="control-label" for="ad-avatar">Avatar</label>
+      <div class="controls">
+        <img id="ad-project-img" src=" assets/style/images/art/nofound.jpg " alt="" /> <br>
+        <input id="ad-project-avatar" accept='image/*' name="ad_project_avatar" class="input-file" type="file" value="  ">
+      </div>
+    </div>
+    
+    <div class="control-group">
+      <div id="progress-div">
+      <progress id="progressBar" value="0" max="100" style="width:500px;" ></progress>
+      <span id="loaded_n_total"></span> 
+      &nbsp;
+      <span id="status_upload"></span>
+      </div>
+
+      <div id="project-loading-div" hidden>
+        <img src="assets/style/images/loading.gif">
+      </div>
+    </div>
+
+    <!-- Button (Double) -->
+    <div class="control-group">
+      <label class="control-label" for="ad-project-ok"></label>
+      <div class="controls">
+        <input type="submit" id="ad-project-ok" name="ad-project-ok" class="btn btn-primary" value="Submit"/>
+        <button id="ad-project-clean" name="ad-project-clean" class="btn btn-default">Clean</button>
+        <a id="ad-project-cancel" href="index.php/admin_project/view_project_list" name="ad-project-cancel" class="btn btn-default">Back</a>
+      </div>
+    </div>
+
+    </fieldset>
+  </div>
+</form>
+</div>
+
+<script type="text/javascript" src='assets/js/ckeditor/ckeditor.js'></script>
+<script type="text/javascript" src='assets/js/ckfinder/ckfinder.js'></script>
+<script type="text/javascript">
+  window.onload = function()
+  {
+    // Used for click submit again
+    if(CKEDITOR.instances['ad-project-description']) { 
+        CKEDITOR.remove(CKEDITOR.instances['ad-project-description']); 
+    } 
+  
+    CKEDITOR.config.width = 1170; 
+    CKEDITOR.config.height = 450; 
+    //Whether to convert all remaining characters not included in the ASCII character table to their relative 
+    //decimal numeric representation of HTML entity. When set to force, it will convert all entities into this format. 
+    //For example : &#27721;&#35821;."
+    CKEDITOR.config.entities_processNumerical = 'force'; // used for UTF-8
+    CKEDITOR.replace('ad-project-description',
+      { uiColor: '#9AB8F3',
+         allowedContent: 
+          'h1 h2 h3 p blockquote strong em;' +
+          'a[!href];' +
+          'img(left,right)[!src,alt,width,height];' +
+          'table tr th td caption;' +
+          'span0;' +
+          'span;' +
+          'span(!marker);' + 'del ins', 
+        basicEntities: false
+      }); 
+  }
+</script>
+        </div>
+        <!--main content end-->
+
+        <!-- footer start -->
+        <footer class="light-wrapper text-center">
+            <div class="container inner">
+  <p><a href="index.php/auth/login" style="color:black">©</a> 2015 Developed by Quang Nguyen Phu. All rights reserved - version 0.1. Theme by elemis.</p>
+  <ul class="social gray">
+    <!-- <li><a href="#"><i class="icon-s-twitter"></i></a></li> -->
+    <li><a href="https://www.facebook.com/quang.nguyenphu.14"><i class="icon-s-facebook"></i></a></li>
+    <li><a href="https://github.com/quangnguyen90"><i class="icon-s-github"></i></a></li>
+    <!-- <li><a href="#"><i class="icon-s-instagram"></i></a></li> -->
+    <li><a href="https://plus.google.com/u/0/108506522243213728592/posts"><i class="icon-gplus"></i></a></li>
+    <li><a href="http://lnkd.in/bQxqy-Q"><i class="icon-s-linkedin"></i></a></li>
+    <li><a href="https://www.youtube.com/channel/UCc508fgvYhNOwbMeOAVm69Q/videos"><i class="icon-s-youtube"></i></li>
+  </ul>
+  <!-- /.social --> 
+</div>
+    <!-- /.container -->  
+        </footer>
+        <!-- /footer -->
+
+    </div>
+    
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!-- Placed js at the end of the document so the pages load faster -->
+<!--Core js-->
+<!--/.body-wrapper--> 
+<script src="assets/style/js/jquery.js"></script> 
+<script src="assets/style/js/bootstrap.min.js"></script> 
+<script src="assets/style/js/twitter-bootstrap-hover-dropdown.min.js"></script> 
+<script src="assets/style/js/jquery.themepunch.plugins.min.js"></script> 
+<script src="assets/style/js/jquery.themepunch.revolution.min.js"></script> 
+<script src="assets/style/js/jquery.themepunch.showbizpro.min.js"></script> 
+<script src="assets/style/js/jquery.fitvids.js"></script> 
+<script src="assets/style/js/jquery.slickforms.js"></script> 
+<script src="assets/style/js/jquery.isotope.min.js"></script> 
+<script src="assets/style/js/google-code-prettify/prettify.js"></script> 
+<script src="assets/style/js/jquery.easytabs.min.js"></script> 
+<script src="assets/style/js/jquery.jribbble-0.11.0.ugly.js"></script> 
+<script src="assets/style/js/view.min.js?auto"></script> 
+<script src="assets/style/js/scripts.js"></script>
+
+<!-- DEMO ONLY -->
+<link rel="alternate stylesheet" type="text/css" href="assets/switcher/blue.css" title="blue-color" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="assets/switcher/gray.css" title="gray-color" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="assets/switcher/green.css" title="green-color" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="assets/switcher/navy.css" title="navy-color" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="assets/switcher/orange.css" title="orange-color" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="assets/switcher/pink.css" title="pink-color" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="assets/switcher/purple.css" title="purple-color" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="assets/switcher/red.css" title="red-color" media="screen" />
+
+<script type="text/javascript" src="assets/switcher/switchstylesheet.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){ 
+        $(".changecolor").switchstylesheet( { seperator:"color"} );
+    });
+</script>
+
+<!--external script-->
+<script src="assets/js/project/project.js"></script>
+<script src="assets/js/project/project_event.js"></script>
+
+
+<!--common script init for all pages-->
+
+<!--script for this page-->
+<script>
+    $(function(){
+       // Init the Dashboard appplication
+       
+   });
+</script>
+
+</body>
+
+</html><?php }} ?>
